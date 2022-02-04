@@ -1,0 +1,93 @@
+/*???????????????????
+
+please set all your env varibales in sass_varables file all lazy sass files in app use sass_variables to import your env variables automatically
+
+while making sass files in app directory use
+
+"@" - for sub files in a sass tree structure, ignored in main sass compiler
+example - "@sub_component.scss"
+this file is compiled only when its parent is compiled and ignored if its parent-less
+
+"!" - for files to ignore in main sass compiler
+example - "!ignored_sass_file.scss"
+this file is ignored
+
+files starting without any of above characters compiles into main sass bundle
+
+files in lazy modules are lazy css and are needed to be loaded with module loader sepratly.
+
+???????????????????*/
+.editor {
+  margin: 0px; }
+
+.editor-menu-messages {
+  position: fixed;
+  bottom: 0px;
+  left: 0px; }
+
+.editor-menu-messages-message {
+  padding: 10px;
+  background-color: #4e03fc;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px; }
+
+.editor-menu {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.editor-menu-icons {
+  text-align: center; }
+
+.editor-menu-icons-icon {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 5px solid white; }
+
+.editor-menu-icons-icon:hover {
+  border-bottom: 5px solid #4e03fc; }
+
+.editor-menu-icons-icon-img {
+  height: 24px; }
+
+/*???????????????????
+
+"@" - for sub files in a sass tree structure, ignored in main sass compiler
+example - "@sub_component.scss"
+this file is compiled only when its parent is compiled and ignored if its parent-less
+
+"!" - for files to ignore in main sass compiler
+example - "!ignored_sass_file.scss"
+this file is ignored
+
+???????????????????*/
+.ui-common-comp-alert {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100vw;
+  text-align: center; }
+
+.ui-common-comp-alert-message {
+  color: white;
+  background-color: #192130;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block; }
+
+.ui-common-comp-alert-message-danger {
+  background-color: #ff1c14; }
+
+.ui-common-comp-alert-message-success {
+  background-color: #00ff4c; }
+
+* {
+  font-family: "roboto";
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }

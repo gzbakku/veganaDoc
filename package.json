@@ -1,0 +1,33 @@
+{
+  "name": "vegana_document_builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@editorjs/editorjs": "^2.22.2",
+    "@editorjs/embed": "^2.5.0",
+    "@editorjs/header": "^2.6.2",
+    "@editorjs/list": "^1.6.2",
+    "@editorjs/nested-list": "^1.0.2",
+    "@editorjs/paragraph": "^2.8.0",
+    "@editorjs/table": "^2.0.1",
+    "editorjs-paragraph-with-alignment": "^3.0.0",
+    "@editorjs/code": "^2.7.0",
+    "@editorjs/delimiter": "^1.2.0",
+    "@editorjs/quote": "^2.4.0",
+    "@editorjs/simple-image": "^1.4.1",
+    "editorjs-inline-image": "^1.0.1",
+    "hadron-ipc": "^2.7.0",
+    "vegana-engine": "^2.2.0"
+  },
+  "devDependencies": {
+    "electron": "^17.0.0",
+    "electron-builder": "^22.14.5"
+  }
+}

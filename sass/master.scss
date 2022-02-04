@@ -1,0 +1,40 @@
+
+
+/*???????????????????
+
+please set all your env varibales in sass_varables file all lazy sass files in app use sass_variables to import your env variables automatically
+
+while making sass files in app directory use
+
+"@" - for sub files in a sass tree structure, ignored in main sass compiler
+example - "@sub_component.scss"
+this file is compiled only when its parent is compiled and ignored if its parent-less
+
+"!" - for files to ignore in main sass compiler
+example - "!ignored_sass_file.scss"
+this file is ignored
+
+files starting without any of above characters compiles into main sass bundle
+
+files in lazy modules are lazy css and are needed to be loaded with module loader sepratly.
+
+???????????????????*/
+
+//------------------------
+// vegana base files
+
+@import './sass_variables.scss';
+@import './vegana_tree.scss';
+
+//------------------------
+// import your files here
+
+//------------------------
+// you code goes here
+
+*{
+    font-family: $font-text;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }

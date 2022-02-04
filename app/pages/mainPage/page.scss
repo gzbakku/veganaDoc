@@ -1,0 +1,56 @@
+ 
+ .editor{
+   margin: 0px;
+  //  border:5px solid red;
+ }
+
+ .editor-worker{} 
+
+ .editor-menu-messages{
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+ } 
+
+ .editor-menu-messages-message{
+  padding:10px;
+  background-color: $color-purple;
+  color:white;
+  padding:10px;
+  border-radius: 5px;
+  margin: 10px;
+ } 
+
+ .editor-menu{
+  padding-top: 5px;
+  padding-bottom: 5px;
+ } 
+
+ .editor-menu-icons{
+  text-align: center;
+ } 
+
+ .editor-menu-icons-icon{
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 5px solid white;
+ } 
+
+ .editor-menu-icons-icon:hover{
+  border-bottom: 5px solid $color-purple;
+ }
+
+ .editor-menu-icons-icon-img{
+  height: 24px;
+  
+ }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
