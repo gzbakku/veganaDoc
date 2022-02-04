@@ -27,6 +27,7 @@ function createWindow(){
     }
   });
   win.loadFile('electric.html');
+  win.setMenuBarVisibility(false)
   // win.webContents.openDevTools();
 }
 

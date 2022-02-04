@@ -1,5 +1,5 @@
 {
-  "time": 1643981699666,
+  "time": 1643990715621,
   "blocks": [
     {
       "id": "iqWEV8cCNc",
@@ -23,6 +23,12 @@
             "is&nbsp;",
             "A",
             "table"
+          ],
+          [
+            "this",
+            "is&nbsp;",
+            "another",
+            "row"
           ]
         ]
       }
@@ -33,6 +39,13 @@
       "data": {
         "text": "this is some test txt",
         "alignment": "left"
+      }
+    },
+    {
+      "id": "UWIRGQhdBA",
+      "type": "code",
+      "data": {
+        "code": "this is some code\n\n  <html>\n\nthis.js = true"
       }
     }
   ],

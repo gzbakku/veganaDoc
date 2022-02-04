@@ -697,12 +697,20 @@ function build(){
     if(build === "Control_s"){
       save(false);
     } else
+    if(build === "Control_Shift_S"){
+      save(true);
+    }
     if(build === "Control_Shift_s"){
+      save(true);
+    }
+    if(build === "Control_Alt_s"){
       save(true);
     }
     if(build === "Control_o"){
       open();
     }
+
+    // console.log(build);
 
   });
 
